@@ -29,7 +29,7 @@ public class Account {
 
     private boolean active;
 
-    // Construtor padrão (necessário para o JPA)
+    
     public Account() {}
 
     public Account(Long cpf, Long agencyNumber, String name, String openingDate, String accountType, Double balance,
@@ -43,7 +43,7 @@ public class Account {
         this.active = active;
     }
 
-    // Getters e Setters
+    
     public Long getId() {
         return id;
     }
